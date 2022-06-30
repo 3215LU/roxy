@@ -1,7 +1,13 @@
  /*Es una función resume, corresponde al boton Resume*/
 function resume(event){
-event.preventDefault();
-  
+//event.preventDefault();
+  /*
+HTMLFormElement.preventdefault();
+*/
+document.getElementById("botonCalcular").addEventListener("click", function(event){
+  event.preventDefault()
+});
+
 var cantidad= document.getElementById('cantidadEntrada').value;
 var categorias= document.getElementById('categoria').value;
 var total=Number;
