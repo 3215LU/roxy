@@ -1,9 +1,6 @@
  /*Es una función resume, corresponde al boton Resume*/
-function resume(){
-
-  document.getElementById("botonCalcular").addEventListener("click", function(event){
-    event.preventDefault()
-  });
+function resume(event){
+event.preventDefault();
   
 var cantidad= document.getElementById('cantidadEntrada').value;
 var categorias= document.getElementById('categoria').value;
