@@ -1,6 +1,6 @@
  /*Es una función resume, corresponde al boton Resume*/
 function resume(){
-Event.preventdefault();
+
 var cantidad= document.getElementById('cantidadEntrada').value;
 var categorias= document.getElementById('categoria').value;
 var total=Number;
@@ -17,6 +17,7 @@ console.log(cantidad);
           }
     }
   document.getElementById('totalCompra').innerHTML='Total a Pagar: $'+total;
+  Event.preventdefault();
 }
  /*Es una función borrar, corresponde al boton Borrar*/
  function borrar(){
