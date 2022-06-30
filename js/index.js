@@ -1,5 +1,6 @@
  /*Es una función resume, corresponde al boton Resume*/
 function resume(){
+event.preventdefault()
 var cantidad= document.getElementById('cantidadEntrada').value;
 var categorias= document.getElementById('categoria').value;
 var total=Number;
