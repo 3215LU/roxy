@@ -17,7 +17,7 @@ console.log(cantidad);
           }
     }
   document.getElementById('totalCompra').innerHTML='Total a Pagar: $'+total;
-  Event.preventdefault();
+  HTMLFormElement.preventdefault()
 }
  /*Es una función borrar, corresponde al boton Borrar*/
  function borrar(){
