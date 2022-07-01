@@ -125,10 +125,9 @@
         </div>
         </section>    
       <br>
-     <script>
-      
+     <script>      
             function resume(){
-            event.defaultPrevented;
+            event.defaultPrevented();
             var cantidad= document.getElementById('cantidadEntrada').value;
             var categorias= document.getElementById('categoria').value;
             var total=Number;
@@ -146,6 +145,7 @@
                 }
               document.getElementById('totalCompra').innerHTML='Total a Pagar: $'+total; 
             }
+
             document.getElementById('resume').addEventListener('click',resume);
 
             //Es una función borrar, corresponde al boton Borrar
