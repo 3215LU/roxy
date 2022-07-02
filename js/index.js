@@ -2,6 +2,7 @@
  function borrar(){
     document.getElementById('totalCompra').innerHTML="Total a Pagar: $";
 }
+
  /*Es una función resume, corresponde al boton Resume*/
 function resume(){
 var cantidad= document.getElementById('cantidadEntrada').value;
