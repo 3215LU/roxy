@@ -23,3 +23,4 @@ console.log(cantidad);
   document.getElementById('totalCompra').innerHTML="Total a Pagar: $"+total;
 }
 //document.getElementById('totalCompra').addEventListener('click',resume);
+ //hola
